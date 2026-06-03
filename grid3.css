@@ -1,0 +1,42 @@
+.main{
+    height: 650px;
+    width: 1060px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    grid-template-rows: repeat(3,200px);
+    gap: 20px;
+}
+.first{
+    grid-column: 1/2;
+    background-color: rgb(50, 181, 21);
+    border-radius: 25px;
+}
+.second{
+    grid-column: 2/3;
+    background-color: rgb(179, 207, 20);
+     border-radius: 25px;
+}
+.third{
+     grid-column: 3/5;
+    background-color: rgb(179, 207, 20);
+     border-radius: 25px;
+}
+.fourth{
+    grid-column: 1/5;
+    background-color: 
+    gray;
+     border-radius: 25px;
+}
+.fifth{
+    grid-column:1/3 ;
+    background-color: cadetblue;
+     border-radius: 25px;
+}
+.six{
+       grid-column:3/5 ;
+    background-color: cadetblue;
+     border-radius: 25px;   
+}

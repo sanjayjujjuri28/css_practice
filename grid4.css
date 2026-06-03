@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-areas: 
+    "h1 h1 h1"
+    "sb mn as"
+    "ft ft ft";
+    gap: 12px;
+    height: 100vh;
+    background-color: aliceblue;
+}
